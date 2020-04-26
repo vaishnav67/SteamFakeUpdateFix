@@ -8,6 +8,7 @@ int main()
     fstream acf,config,acftemp;
     string dir, dir1, dir2, dele;
     int appid;
+    cout << "Welcome to DeathKnight's Steam Fix\nMake sure that Config.txt exists!\n";
     cout << "Enter the App ID of the game having the fake update: ";
     cin >> appid;
     config.open("Config.txt", ios::in);
